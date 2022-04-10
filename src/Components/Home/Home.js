@@ -1,5 +1,5 @@
 import React from 'react';
-import {  NavLink } from 'react-router-dom';
+ 
 import Banner from '../Banner/Banner';
 // import Destination from '../Destination/Destination';
 // import Login from '../Login/Login';
