@@ -1,0 +1,15 @@
+.homes{
+  
+    background: linear-gradient(to left, rgba(92, 92, 197, 0.3), rgba(170, 143, 163, 0.3)),  url('../../images/Bg.png') no-repeat center/cover;
+
+min-height: 100vh;
+}
+
+.homes img{
+    height: 100px;
+}
+img{
+    height: 500px;
+    width: 100%;
+}
+

@@ -1,0 +1,10 @@
+.banner .btn-outline-success:hover{
+background-color:red !important;
+transition: 0.6s ease;
+color: whit;
+}
+.banner .btn-outline-success{
+    border-radius: 10px;
+    font-weight: bolder;
+  
+}

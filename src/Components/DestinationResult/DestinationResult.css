@@ -1,0 +1,15 @@
+.range {
+    background: tomato ;
+    color: white;
+    
+    border-radius: 10px;
+}
+.container .row {
+    font-weight: bolder;
+    
+}
+ .xx :hover {
+ 
+    cursor: pointer;
+    
+}
