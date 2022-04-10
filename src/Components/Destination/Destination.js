@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import { useLocation } from 'react-router-dom';
+// import { useLocation } from 'react-router-dom';
 import { useHistory } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 
@@ -12,14 +12,14 @@ const Destination = () => {
 
     const history = useHistory();
  
-    const [loginuser, setLoginUser] = useContext(destinationContext);
+    const [loginuser] = useContext(destinationContext);
     const [result, setResult] = useState({});
    
 
 
 
 
-    const { register, handleSubmit, formState: { errors } } = useForm();
+    const { register, handleSubmit } = useForm();
     const onSubmit = (data) => {
         setResult(data);
    

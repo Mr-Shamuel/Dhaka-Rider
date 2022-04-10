@@ -4,7 +4,7 @@ import { Route } from 'react-router-dom';
 import { destinationContext } from '../../App';
 
 const PrivateRoute = ({children,...rest}) => {
-    const [loginuser,setLoginUser] = useContext(destinationContext);
+    const [loginuser] = useContext(destinationContext);
 
     return (
         <Route
