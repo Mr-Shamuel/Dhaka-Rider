@@ -3,9 +3,10 @@ import React, { useContext, useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 
-import Map from '../../images/Map.png';
+// import Map from '../../images/Map.png';
 import Navbar from '../Navbar/Navbar';
 import { destinationContext } from '../../App';
+import Map from '../Map/Map';
 
 
 const Destination = () => {
@@ -49,7 +50,7 @@ const Destination = () => {
 
 
             <h3 className="text-center"> Hello {loginuser.displayName}, <br></br> Please Enter Your Distance!</h3>
-            <div className="row container   pt-5">
+            <div className="row container mx-5   pt-5">
                 <div className="col-md-5 bg-secondary h-50 p-3 rounded ">
 
                     
@@ -69,7 +70,9 @@ const Destination = () => {
 
                 </div>
                 <div className="col-md-7 px-5 ">
-                    <img className="img-fluid  h-75" src={Map} alt="" />
+                    {/* <img className="img-fluid  h-75" src={Map} alt="" /> */}
+               
+               <Map></Map>
                 </div>
             </div>
 
