@@ -12,6 +12,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import AddLocationIcon from '@mui/icons-material/AddLocation';
 import { DataContext } from '../../App';
 import Map from '../Map/Map';
+import Map2 from '../Map/Map2';
 
 
 
@@ -100,6 +101,7 @@ const DestinationResult = () => {
                     </div>
                     <div className="col-md-7 px-5 w-65 ">
                         <Map></Map>
+                        {/* <Map2></Map2> */}
 
                     </div>
                 </div>

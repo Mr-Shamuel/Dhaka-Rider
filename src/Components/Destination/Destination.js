@@ -7,6 +7,7 @@ import { useForm } from 'react-hook-form';
 import Navbar from '../Navbar/Navbar';
 import { destinationContext } from '../../App';
 import Map from '../Map/Map';
+import Map2 from '../Map/Map2';
 
 
 const Destination = () => {
@@ -73,6 +74,7 @@ const Destination = () => {
                     {/* <img className="img-fluid  h-75" src={Map} alt="" /> */}
                
                <Map></Map>
+               {/* <Map2></Map2> */}
                 </div>
             </div>
 

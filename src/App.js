@@ -18,6 +18,9 @@ import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import Blog from './Components/Blog/Blog';
 import Contact from './Components/Contact/Contact';
 import Register from './Components/Login/Register';
+import Map2 from './Components/Map/Map2';
+//map box 
+import 'mapbox-gl/dist/mapbox-gl.css';
 
 export const destinationContext = createContext();
 export const DataContext = createContext();
@@ -41,6 +44,7 @@ function App() {
             <PrivateRoute path="/destination">
               <Destination></Destination>
             </PrivateRoute>
+           
             <Route path="/home">
               <Home></Home>
             </Route>
@@ -68,6 +72,7 @@ function App() {
           </Switch>
 
         </Router>
+      
 
       </DataContext.Provider>
     </destinationContext.Provider>
