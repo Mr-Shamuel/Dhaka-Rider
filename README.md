@@ -1,7 +1,7 @@
 
 # Dhaka Rider
 
-In This Project User Can Find The Perfect Route for Travel..
+ 
  Live Server: https://dhaka-raider.netlify.app
 
 
