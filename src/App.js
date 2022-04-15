@@ -18,7 +18,7 @@ import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import Blog from './Components/Blog/Blog';
 import Contact from './Components/Contact/Contact';
 import Register from './Components/Login/Register';
-import Map2 from './Components/Map/Map2';
+ 
 //map box 
 import 'mapbox-gl/dist/mapbox-gl.css';
 

@@ -7,7 +7,7 @@ import { useForm } from 'react-hook-form';
 import Navbar from '../Navbar/Navbar';
 import { destinationContext } from '../../App';
 import Map from '../Map/Map';
-import Map2 from '../Map/Map2';
+ 
 
 
 const Destination = () => {
